@@ -1,0 +1,10 @@
+[
+  "\"Your building's latitude and longitude is {{latitude}}, {{longitude}}!\"",
+  "ADD_REMOVE_GROUPS_FROM_PROPERTIES",
+  "ADD_REMOVE_GROUPS_FROM_TAXLOTS",
+  "CREATE_DOCUMENT_PROGRESS",
+  "Geolocating has been disabled for this organization.",
+  "Summary (Beta)",
+  "The DOE developed the Standard Energy Efficiency Data (SEED) Platform™ as a free software tool that provides a standardized format for collecting, storing and analyzing building energy performance information about large portfolios. Upload your buildings list to get started.",
+  "This action replaces any of your current columns with the comma-delmited columns you provided. Would you like to continue?"
+]

@@ -1,0 +1,3729 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-15 11:53-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: src/django-helpdesk/helpdesk/admin.py:59
+#: src/django-helpdesk/helpdesk/models.py:195
+#: src/django-helpdesk/helpdesk/models.py:975
+#: src/django-helpdesk/helpdesk/models.py:1417
+#: src/django-helpdesk/helpdesk/models.py:1516
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:21
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:41
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:199
+#: src/django-helpdesk/helpdesk/views/staff.py:1232
+msgid "Title"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/admin.py:76
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:58
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:148
+msgid "Submitter E-Mail"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/admin.py:109
+msgid "Ticket Form"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/admin.py:114
+msgid "BEAM Column"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/admin.py:120
+msgid "Non-default field?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/admin.py:168
+msgid "Add empty choice?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/admin.py:189
+msgid "Extra Data"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/admin.py:216
+#: src/django-helpdesk/helpdesk/admin.py:224
+#: src/django-helpdesk/helpdesk/models.py:200
+#: src/django-helpdesk/helpdesk/models.py:1423
+#: src/django-helpdesk/helpdesk/models.py:2104
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:42
+msgid "Slug"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/email.py:768
+#, python-format
+msgid "E-Mail Received from %(sender_email)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/email.py:788
+#, python-format
+msgid "Ticket Re-Opened by E-Mail Received from %(user)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/email.py:790
+#, python-format
+msgid "Ticket Re-Opened by E-Mail Received from %(sender_email)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/email.py:895
+msgid "Comment from e-mail"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/email.py:1049
+#: src/django-helpdesk/helpdesk/email.py:1281
+#: src/django-helpdesk/helpdesk/email.py:1520
+msgid "email_html_body.html"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/email.py:1101
+#: src/django-helpdesk/helpdesk/email.py:1569
+msgid "original_message.eml"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:194
+msgid "This ticket is merged into the selected ticket."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:638
+#: src/django-helpdesk/helpdesk/models.py:2092
+msgid "Character (single line)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:638
+#: src/django-helpdesk/helpdesk/models.py:2093
+msgid "Text (multi-line)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:668
+#: src/django-helpdesk/helpdesk/models.py:287
+#: src/django-helpdesk/helpdesk/models.py:532
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/queue.html:6
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:24
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:46
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/tickets.html:16
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:15
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:89
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:44
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:45
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:173
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:71
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:140
+#: src/django-helpdesk/helpdesk/views/staff.py:2364
+#: src/django-helpdesk/helpdesk/views/staff.py:2370
+#: src/django-helpdesk/helpdesk/views/staff.py:2376
+#: src/django-helpdesk/helpdesk/views/staff.py:2382
+msgid "Queue"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:704
+msgid "Knowledge Base Item"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1076
+msgid "Submitter E-Mail Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1078
+msgid ""
+"This e-mail address will receive copies of all public updates to this ticket."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1088
+msgid "Case owner"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1089
+msgid ""
+"If you select an owner other than yourself, they'll be e-mailed details of "
+"this ticket immediately."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1138
+#, python-format
+msgid "Ticket Opened & Assigned to %(name)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1139
+msgid "<invalid user>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1142
+msgid "Ticket Opened"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1163
+msgid "Your E-Mail Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1164
+msgid "We will e-mail you when your ticket is updated."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1205
+msgid "Ticket Opened Via Web"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1334
+msgid "Please select a ticket from the dropdown or enter a ticket ID."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1336
+msgid "Please select a ticket using only one of the options."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1345
+msgid "Please enter a valid ticket ID."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1353
+msgid "Tickets to merge"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1361
+msgid "Please choose at least 2 tickets."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1363
+msgid "Impossible to merge more than 4 tickets..."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/forms.py:1366
+msgid "All selected tickets must share the same queue in order to be merged."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/management/commands/create_queue_permissions.py:69
+#: src/django-helpdesk/helpdesk/migrations/0009_migrate_queuemembership.py:28
+#: src/django-helpdesk/helpdesk/models.py:354
+msgid "Permission for queue: "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/management/commands/create_usersettings.py:23
+msgid ""
+"Check for user without django-helpdesk UserSettings and create settings if "
+"required. Uses settings.DEFAULT_USER_SETTINGS which can be overridden to "
+"suit your situation."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/management/commands/escalate_tickets.py:133
+#, python-format
+msgid "Ticket escalated after %s days"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/management/commands/escalate_tickets.py:139
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/priority.html:6
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:30
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/tickets.html:15
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:14
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:88
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:63
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:205
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:166
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:172
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:70
+#: src/django-helpdesk/helpdesk/views/staff.py:1265
+msgid "Priority"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:202
+msgid ""
+"This slug is used in ticket ID's. Only lowercase letters, numbers, and "
+"underscoresare allowed. Shorter slugs preferred! Once set, the slug cannot "
+"be changed."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:212
+msgid "Default owner"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:219
+msgid ""
+"When a ticket is closed, reassign the ticket to the default owner (if one is "
+"set)."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:223
+msgid "Users to notify when a new ticket is created"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:227
+msgid ""
+"If an e-mail address is entered here, then it will receive notification of "
+"all new tickets created for this queue. Enter a comma between multiple e-"
+"mail addresses."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:233
+msgid "Users to notify when any update is made to a ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:237
+msgid ""
+"If an e-mail address is entered here, then it will receive notification of "
+"all activity (new tickets, closed tickets, updates, reassignments, etc) for "
+"this queue. Separate multiple addresses with a comma."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:245
+msgid "Notify contacts when email updates arrive?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:248
+msgid ""
+"When an email arrives to either create a ticket or to interact with an "
+"existing discussion, should email notifications be sent to non-Helpdesk "
+"participants? Note: the two fields for updating staff users work "
+"independently of this setting."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:254
+msgid "Allow visitors to select this queue?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:257
+msgid ""
+"On forms where a default queue is not set, should this queue be listed as an "
+"option for visitors?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:269
+msgid "Escalation days"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:272
+msgid ""
+"For tickets which are not on hold, how often do you wish to increase their "
+"priority? Set to 0 for no escalation."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:278
+msgid ""
+"Time to be spent on this queue in total. Enter the time in seconds, or '0 "
+"00:00:00' format (day hour:minute:second)."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:288
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:38
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:29
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:18
+msgid "Queues"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:340
+msgid "-"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:386
+msgid "Introduction text included in the form.<br/><br/>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:389
+msgid ""
+"If a queue is selected, tickets will automatically be added to this queue "
+"when submitted. This option will hide the Queue field on the form."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:393
+msgid "Public?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:394
+msgid "Should this form be accessible by everyone?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:395
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:48
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:40
+msgid "Staff"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:396
+msgid ""
+"Should this form be only accessible by staff? It will not be shown in the "
+"public form list."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:397
+#: src/django-helpdesk/helpdesk/models.py:1601
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:49
+msgid "Unlisted"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:398
+msgid ""
+"Should this form be hidden from the public form list? (If the \"public\" "
+"option is checked, this form will still be accessible by everyone through "
+"the link.)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:405
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/ticket_form.html:6
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:174
+msgid "Form"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:406
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:19
+msgid "Forms"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:439
+msgid "red"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:440
+msgid "orange"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:441
+msgid "green"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:442
+msgid "light blue"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:443
+msgid "blue"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:444
+msgid "gray"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:489
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:45
+msgid "Open"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:490
+msgid "Reopened"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:491
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:46
+msgid "Resolved"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:492
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:47
+msgid "Closed"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:493
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:52
+msgid "Duplicate"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:494
+msgid "Replied"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:495
+msgid "New"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:499
+msgid "1. Critical"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:500
+msgid "2. High"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:501
+msgid "3. Normal"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:502
+msgid "4. Low"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:503
+msgid "5. Very Low"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:509
+msgid "Assigned to"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:510
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:15
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:16
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:90
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:179
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:76
+msgid "Created"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:511
+msgid "Date this ticket was first created"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:512
+msgid "Modified"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:513
+msgid "Date this ticket was most recently changed."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:514
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:27
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/status.html:6
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/tickets.html:17
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:175
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:72
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:143
+#: src/django-helpdesk/helpdesk/views/staff.py:1242
+#: src/django-helpdesk/helpdesk/views/staff.py:1671
+msgid "Status"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:515
+msgid "On Hold"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:516
+msgid "If a ticket is on hold, it will not automatically be escalated."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:517
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:91
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:248
+#: src/django-helpdesk/helpdesk/views/staff.py:1675
+msgid "Resolution"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:518
+msgid "The resolution provided to the customer by our staff."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:520
+msgid ""
+"The date this ticket was last escalated - updated automatically by "
+"management/commands/escalate_tickets.py."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:522
+msgid "Secret key needed for viewing/editing ticket by non-logged in users"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:525
+msgid "Knowledge base item the user was viewing when they created this ticket."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:527
+msgid "merged to"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:556
+msgid "Portfolio Manager ID"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:557
+msgid "Building ID"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:692
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/owner.html:14
+#: src/django-helpdesk/helpdesk/views/feeds.py:93
+#: src/django-helpdesk/helpdesk/views/feeds.py:118
+#: src/django-helpdesk/helpdesk/views/feeds.py:170
+#: src/django-helpdesk/helpdesk/views/staff.py:1173
+msgid "Unassigned"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:748
+msgid " - On Hold"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:751
+msgid " - Open dependencies"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:863
+#: src/django-helpdesk/helpdesk/models.py:966
+#: src/django-helpdesk/helpdesk/models.py:1063
+#: src/django-helpdesk/helpdesk/models.py:1999
+#: src/django-helpdesk/helpdesk/models.py:2211
+#: src/django-helpdesk/helpdesk/models.py:2245
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/tickets.html:14
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:13
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:87
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:61
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_homepage.html:64
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_form.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:171
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:69
+msgid "Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:864
+#: src/django-helpdesk/helpdesk/templates/helpdesk/create_ticket.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/delete_ticket.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_inventory_labels.html:14
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/followup_edit.html:14
+#: src/django-helpdesk/helpdesk/templates/helpdesk/pair_property_milestone.html:14
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_error.html:14
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:8
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:14
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_add.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_del.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_copy_to_beam.html:14
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_add.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_del.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:6
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:24
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:5
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:23
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:14
+msgid "Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:970
+#: src/django-helpdesk/helpdesk/models.py:1319
+#: src/django-helpdesk/helpdesk/models.py:1905
+#: src/django-helpdesk/helpdesk/models.py:2098
+msgid "Date"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:982
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:152
+#: src/django-helpdesk/helpdesk/views/staff.py:1218
+msgid "Comment"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:989
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:47
+msgid "Public"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:993
+msgid ""
+"Public tickets are viewable by the submitter and all staff, but non-public "
+"tickets can only be seen by staff."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1003
+#: src/django-helpdesk/helpdesk/models.py:1055
+#: src/django-helpdesk/helpdesk/models.py:1713
+#: src/django-helpdesk/helpdesk/models.py:2008
+#: src/django-helpdesk/helpdesk/views/staff.py:2339
+#: src/django-helpdesk/helpdesk/views/staff.py:2345
+#: src/django-helpdesk/helpdesk/views/staff.py:2352
+#: src/django-helpdesk/helpdesk/views/staff.py:2358
+msgid "User"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1007
+msgid "New Status"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1011
+msgid "If the status was changed, what was it changed to?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1015
+msgid "E-Mail ID"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1019
+msgid "The Message ID of the submitter's email."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1027
+#: src/django-helpdesk/helpdesk/models.py:1095
+#: src/django-helpdesk/helpdesk/models.py:1212
+msgid "Follow-up"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1028
+msgid "Follow-ups"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1071
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:182
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:79
+msgid "Time Spent"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1072
+msgid "Time Spent Entries"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1099
+#: src/django-helpdesk/helpdesk/models.py:2217
+msgid "Field"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1104
+msgid "Old Value"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1110
+msgid "New Value"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1118
+msgid "removed"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1120
+#, python-format
+msgid "set to %s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1122
+#, python-format
+msgid "changed from \"%(old_value)s\" to \"%(new_value)s\""
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1129
+msgid "Ticket change"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1130
+msgid "Ticket changes"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1145
+msgid "File"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1151
+msgid "Filename"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1157
+msgid "MIME Type"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1163
+msgid "Size"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1165
+msgid "Size of this file in bytes"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1202
+#: src/django-helpdesk/helpdesk/models.py:2105
+msgid "Attachment"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1203
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:61
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:223
+msgid "Attachments"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1233
+msgid "Knowledgebase Article"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1261
+msgid "Pre-set reply"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1262
+msgid "Pre-set replies"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1267
+#: src/django-helpdesk/helpdesk/models.py:1314
+#: src/django-helpdesk/helpdesk/models.py:1900
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:34
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:43
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:43
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:28
+msgid "Name"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1269
+msgid ""
+"Only used to assist users with selecting a reply - not shown to the user."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1276
+msgid ""
+"Leave blank to allow this reply to be used for all queues, or select those "
+"queues you wish to limit this reply to."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1281
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:30
+msgid "Body"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1282
+msgid ""
+"<br/>Context available:<br/>{{ ticket }}: the ticket object (eg {{ ticket."
+"title }})<br/>{{ queue }}: the queue<br/>{{ user }}: the current user.<br/>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1309
+msgid ""
+"Leave blank for this exclusion to be applied to all queues, or select those "
+"queues you wish to exclude with this entry."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1320
+msgid "Date on which escalation should not happen"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1327
+msgid "Escalation exclusion"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1328
+msgid "Escalation exclusions"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1347
+msgid "Template Name"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1352
+msgid "Subject"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1354
+msgid ""
+"This will be prefixed with \"[ticket.ticket] ticket.title\". We recommend "
+"something simple such as \"(Updated\") or \"(Closed)\" - the same context is "
+"available as in plain_text, below."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1360
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:45
+msgid "Heading"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1362
+msgid ""
+"In HTML e-mails, this will be the heading at the top of the email - the same "
+"context is available as in plain_text, below."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1368
+msgid "Plain Text"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1369
+msgid ""
+"The context available to you includes {{ ticket }}, {{ queue }}, and "
+"depending on the time of the call: {{ resolution }} or {{ comment }}."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1375
+msgid "HTML"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1376
+msgid "The same context is available here as in plain_text, above."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1380
+msgid "Locale"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1384
+msgid "Locale of this template."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1392
+msgid "e-mail template"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1393
+msgid "e-mail templates"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1411
+msgid "Category name"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1429
+msgid "Short description"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1432
+msgid ""
+"Optional short description that will describe the category on the "
+"Knowledgebase Overview page.<br/><br/>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1437
+msgid "Full description on knowledgebase category page"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1438
+msgid "Full description on knowledgebase category page.<br/><br/>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1443
+#: src/django-helpdesk/helpdesk/models.py:1590
+msgid "Ordering"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1458
+msgid "Form submission button text"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1468
+msgid "Default queue for tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1474
+msgid "Is this category publicly visible?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1482
+msgid "Knowledgebase category"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1483
+msgid "Knowledgebase categories"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1512
+msgid "Category"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1523
+msgid "Question"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1528
+msgid "Article body"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1529
+msgid "The body of the article, or answer to the question.<br/><br/>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1564
+msgid "Votes"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1565
+msgid "Total number of votes cast for this item"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1570
+msgid "Positive Votes"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1571
+msgid "Number of votes for this item which were POSITIVE."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1576
+msgid "Last Updated"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1577
+msgid "The date on which this question was most recently changed."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1584
+msgid "Team"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1597
+msgid "Is this article publicly accessible?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1602
+msgid ""
+"Should this form be hidden from the public article list? (If the \"Is this "
+"article publicly accessible?\" option is checked, this form will still be "
+"accessible by everyone through the link.)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1623
+msgid "Unrated"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1631
+msgid "Knowledgebase article"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1632
+msgid "Knowledgebase articles"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1719
+msgid "Organization"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1723
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:257
+msgid "Query Name"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1725
+msgid "User-provided name for this query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1729
+msgid "Shared With Other Users?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1732
+msgid "Should other users see this query?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1736
+msgid "Search Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1737
+msgid "Pickled query object. Be wary changing this."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1743
+msgid "Users who have opted out of seeing this query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1754
+msgid "Saved search"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1755
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:25
+msgid "Saved searches"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1812
+msgid "DEPRECATED! Settings Dictionary DEPRECATED!"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1813
+msgid ""
+"DEPRECATED! This is a base64-encoded representation of a pickled Python "
+"dictionary. Do not change this field via the admin."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1820
+msgid "Show Ticket List on Login?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1821
+msgid "Display the ticket list upon login? Otherwise, the dashboard is shown."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1826
+msgid "E-mail me on ticket change?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1828
+msgid ""
+"If you're the ticket owner and the ticket is changed via the web by somebody "
+"else, do you want to receive an e-mail?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1835
+msgid "E-mail me when assigned a ticket?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1836
+msgid ""
+"If you are assigned a ticket via the web, do you want to receive an e-mail?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1841
+msgid "Number of tickets to show per page"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1842
+msgid "How many tickets do you want to see on the Ticket List page?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1848
+msgid "Use my e-mail address when submitting tickets?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1849
+msgid ""
+"When you submit a ticket, do you want to automatically use your e-mail "
+"address as the submitter address? You can type a different e-mail address "
+"when entering the ticket if needed, this option only changes the default."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1860
+msgid "User Setting"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1861
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:84
+#: src/django-helpdesk/helpdesk/templates/helpdesk/user_settings.html:15
+msgid "User Settings"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1887
+msgid "Ignored e-mail address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1888
+msgid "Ignored e-mail addresses"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1895
+msgid ""
+"Leave blank for this e-mail to be ignored on all queue emails, or select "
+"those queues you wish to ignore this e-mail for."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1906
+msgid "Date on which this e-mail address was added"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1912
+msgid "Last Modified"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1913
+msgid "Date on which this e-mail address was last modified"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1920
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:35
+msgid "Email Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1922
+msgid ""
+"Enter a full e-mail address, or portions with wildcards, eg *@domain.com or "
+"postmaster@*."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1927
+msgid "Save Emails in Mailbox?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:1930
+msgid ""
+"Do you want to save emails from this address in the mailbox? If this is "
+"unticked, emails from this address will be deleted."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2007
+msgid ""
+"This user will receive staff updates from both private and public comments."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2012
+#: src/django-helpdesk/helpdesk/models.py:2101
+msgid "E-Mail Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2015
+msgid "This address will not receive updates from private comments."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2019
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:73
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_homepage.html:76
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_form.html:19
+msgid "View Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2022
+msgid "Can this person login to view the ticket details?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2026
+msgid "Update Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2029
+msgid "Can this person login and update the ticket?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2068
+msgid "Field Name"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2069
+msgid ""
+"As used in the database and behind the scenes. Must consist of only "
+"lowercase letters with no punctuation."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2075
+msgid "Label"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2077
+msgid "The display label for this field"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2083
+msgid "Help Text"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2084
+msgid "Shown to the user when editing the ticket.<br/><br/>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2094
+msgid "Integer"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2095
+msgid "Decimal"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2096
+msgid "List"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2097
+msgid "Boolean (checkbox yes/no)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2099
+msgid "Time"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2100
+msgid "Date & Time"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2102
+msgid "URL"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2103
+msgid "IP Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2106
+msgid "Key Value"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2110
+msgid "Data Type"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2112
+msgid "Allows you to restrict the data entered into this field"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2119
+msgid "Maximum Length (characters)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2125
+msgid "Decimal Places"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2126
+msgid "Only used for decimal fields"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2132
+msgid "Use this email for notifications?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2134
+msgid ""
+"Only for Email Address: adds this email to the list of addresses that "
+"receive notifications of ticket updates. By default, only submitter_email "
+"and contact_email receive notifications."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2139
+msgid "Add empty first choice to List?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2141
+msgid ""
+"Only for List: adds an empty first entry to the choices list, which enforces "
+"that the user makes an active choice."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2146
+msgid "List Values"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2148
+msgid "For list fields only. Enter one option per line."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2155
+msgid "Form Ordering"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2156
+msgid ""
+"Order of fields when submitting a form. Lower numbers are displayed first; "
+"higher numbers are listed later"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2164
+msgid "View Ordering"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2165
+msgid ""
+"Order of fields when viewing a ticket. Lower numbers are displayed first; "
+"higher numbers are listed later"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2179
+msgid "Required?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2179
+msgid "Does the user have to enter a value for this field?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2181
+msgid "Show on public form?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2182
+msgid "Show on staff form?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2185
+msgid "Associated BEAM column"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2186
+msgid ""
+"Use the value in this field to pair tickets with BEAM properties/taxlots?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2196
+msgid "Form field"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2197
+msgid "Form fields"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2227
+msgid "Ticket custom field value"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2228
+msgid "Ticket custom field values"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2239
+msgid "Ticket dependency"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2240
+msgid "Ticket dependencies"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/models.py:2252
+msgid "Depends On Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/query.py:240
+msgid "No text"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/query.py:244
+msgid "View ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/query.py:247
+msgid "Messages"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/attribution.html:6
+msgid ""
+"<a href='https://github.com/django-helpdesk/django-helpdesk'>django-"
+"helpdesk</a>."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/base-head.html:50
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:21
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:47
+msgid "My Open Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/base-head.html:51
+msgid "All Recent Activity"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/base-head.html:52
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:27
+msgid "Unassigned Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/confirm_delete_saved_query.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/confirm_delete_saved_query.html:10
+msgid "Delete Saved Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/confirm_delete_saved_query.html:13
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:212
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:305
+msgid "Delete Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/confirm_delete_saved_query.html:15
+#, python-format
+msgid ""
+"Are you sure you want to delete this saved filter (<em>%(query_title)s</"
+"em>)? To re-create it, you will need to manually re-filter your ticket "
+"listing."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/confirm_delete_saved_query.html:18
+msgid ""
+"You have shared this query, so other users may be using it. If you delete "
+"it, they will have to manually create their own query."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/confirm_delete_saved_query.html:21
+#: src/django-helpdesk/helpdesk/templates/helpdesk/delete_ticket.html:20
+msgid "No, Don't Delete It"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/confirm_delete_saved_query.html:24
+#: src/django-helpdesk/helpdesk/templates/helpdesk/delete_ticket.html:25
+msgid "Yes I Understand - Delete It Anyway"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/create_ticket.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/create_ticket.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_create_ticket.html:4
+msgid "Create Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/create_ticket.html:19
+#, python-format
+msgid ""
+"\n"
+"                %(title)s\n"
+"                "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/create_ticket.html:36
+#, python-format
+msgid "%(intro)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/create_ticket.html:61
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_create_ticket_base.html:44
+msgid "Submit Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:13
+msgid "Helpdesk Dashboard"
+msgstr "Panel de Control - Mesa de Ayuda"
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:8
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:18
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:30
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:29
+msgid "Overview"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:20
+msgid ""
+"Welcome to your Helpdesk Dashboard! From here you can quickly see tickets "
+"submitted by you, tickets you are working on, and those tickets that have no "
+"owner."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:27
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:32
+msgid "Open tickets assigned to you (you are working on this ticket)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:28
+msgid "You have no tickets assigned to you."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:29
+#: src/django-helpdesk/helpdesk/views/staff.py:625
+msgid "ut_page"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:33
+msgid "Unassigned tickets (pick up a ticket if you start to work on it)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:34
+#: src/django-helpdesk/helpdesk/views/staff.py:628
+msgid "uat_page"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:38
+msgid "All tickets submitted by you"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:39
+#: src/django-helpdesk/helpdesk/views/staff.py:627
+msgid "atrbcu_page"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:44
+msgid "Closed, resolved, and duplicate tickets you used to work on"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/dashboard.html:45
+#: src/django-helpdesk/helpdesk/views/staff.py:626
+msgid "utcr_page"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/delete_ticket.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/delete_ticket.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/delete_ticket.html:16
+msgid "Delete Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/delete_ticket.html:18
+#, python-format
+msgid ""
+"Are you sure you want to delete this ticket (<em>%(ticket_title)s</em>)? All "
+"traces of the ticket, including followups, attachments, and updates will be "
+"irreversibly removed."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:5
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:22
+#, python-format
+msgid " %(action)s Form "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_queue.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_add.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_del.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_edit.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:91
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_add.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_delete.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_add.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_delete.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:7
+msgid "System Settings"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:26
+msgid "Maintain Forms"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:15
+#, python-format
+msgid "%(action)s %(fn)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:24
+msgid ""
+"Leaving this page without using the cancel button will create a blank "
+"unnamed form."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:26
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_queue.html:24
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:28
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category_edit.html:26
+msgid "Required fields are indicated by "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:28
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_queue.html:26
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:29
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:30
+msgid "Error: "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:53
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_queue.html:32
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:35
+msgid "Save Changes"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_form.html:61
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_queue.html:40
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_del.html:26
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:57
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category_edit.html:54
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_delete.html:24
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_delete.html:25
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_add.html:44
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_del.html:29
+msgid "Cancel"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_inventory_labels.html:6
+#, python-format
+msgid "Update %(inventory_type)s Labels"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_inventory_labels.html:29
+#, python-format
+msgid "Select a Cycle to select a %(inventory_type)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_inventory_labels.html:39
+#, python-format
+msgid "Select a %(inventory_type)s to update Labels"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_inventory_labels.html:75
+msgid "Update!"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_queue.html:5
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_queue.html:22
+#, python-format
+msgid " %(action)s Queue "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_queue.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:26
+msgid "Maintain Queues"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_queue.html:15
+#, python-format
+msgid " %(action)s %(qt)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:5
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:14
+msgid "Edit Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:20
+msgid "Edit a Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:22
+msgid "Unless otherwise stated, all fields are required."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:23
+msgid "Please provide as descriptive a title and description as possible."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:26
+msgid "Note"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:27
+msgid ""
+"Editing a ticket does <em>not</em> send an e-mail to the ticket owner or "
+"submitter. No new details should be entered, this form should only be used "
+"to fix incorrect details or clean up the submission."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/edit_ticket.html:37
+msgid "Cancel Changes"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_add.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_add.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_add.html:16
+msgid "Ignore Email Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_add.html:10
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_del.html:10
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:3
+msgid "Ignored Email Addresses"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_add.html:18
+msgid ""
+"To ignore an email address and prevent any emails from that address creating "
+"tickets automatically, enter the e-mail address below."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_add.html:20
+msgid ""
+"You can either enter a whole email address such as <em>email@domain.com</em> "
+"or a portion of an email address with a wildcard, such as <em>*@domain.com</"
+"em> or <em>user@*</em>."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_del.html:3
+msgid "Delete Ignored Email Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_del.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_del.html:16
+msgid "Un-Ignore Email Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_del.html:18
+#, python-format
+msgid ""
+"Are you sure you wish to remove this email address (<em>%(email_address)s</"
+"em>) from the ignore list?\n"
+"    This will allow their emails to automatically create tickets in your "
+"system, and they will begin to receive notifications from this point on from "
+"tickets they are copied on.\n"
+"    You can re-add this email address at any time."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_del.html:23
+msgid "Remove from list"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:14
+msgid ""
+"\n"
+"<h2>Ignored Email Addresses</h2>\n"
+"\n"
+"<p>The following email addresses are currently being ignored.\n"
+"    If \"ignore imports\" is checked, emails received from these addresses "
+"will not create new tickets or followups on existing tickets when imported.\n"
+"    If \"prevent sending\" is checked, when these addresses are copied on "
+"Helpdesk tickets, no emails will be sent to them.\n"
+"    This only affects mail sent from Helpdesk, not from BEAM.\n"
+"    You can add a new item or delete any of the items below as needed.</p>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:29
+msgid "Add an Email"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:36
+msgid "Date Added"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:37
+msgid "Date Modified"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:39
+msgid "Keep in mailbox?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:40
+msgid "Ignore Imports?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:41
+msgid "Prevent Sending?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:42
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:57
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:48
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:59
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:31
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:41
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:31
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:40
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:73
+msgid "Edit"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:43
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:58
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:32
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:42
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:41
+msgid "Remove"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:53
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:39
+msgid "All"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:54
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:55
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:56
+msgid "Yes"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:54
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:55
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:56
+msgid "No"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_ignore_list.html:74
+msgid ""
+"<strong>Note:</strong> If the 'Keep' option is not selected, emails sent "
+"from that address will be deleted permanently."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_edit.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_edit.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_edit.html:16
+msgid "Email Template"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_edit.html:10
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:22
+msgid "Email Templates"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_edit.html:18
+msgid "Edit the email template below."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_edit.html:27
+msgid "Revert changes to default"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:14
+msgid ""
+"\n"
+"<h2>Email Templates</h2>\n"
+"<p>Here you can edit email templates sent out from Helpdesk. They are "
+"triggered by specific actions, and so they cannot be created or deleted.</"
+"p>\n"
+"<div class=\"card card-primary\">\n"
+"    <div class=\"card-header\">Template Explanations</div>\n"
+"    <div class=\"card-body\">\n"
+"        <p><b>Name</b> describes the action triggering that template to "
+"send, and the type of user it's sent to:</p>\n"
+"        <ul>\n"
+"            <li><b>Submitter</b>: the user who submitted the ticket, and "
+"whose email address is in the \"submitter\" field of the ticket.</li>\n"
+"            <li><b>Owner</b>: the assigned user</li>\n"
+"            <li><b>CC Public</b>: an address that has been copied on the "
+"ticket, but is not a staff member in Helpdesk</li>\n"
+"            <li><b>CC User</b>: a staff user that has been copied on the "
+"ticket</li>\n"
+"        </ul>\n"
+"        <p><b>Subject Line Suffix</b> is added to the end of the email's "
+"subject line. ex: \"[ticket-123] I have a query <b>(Opened)</b>\"</p>\n"
+"        <p><b>Heading</b> describes the email's content.</p>\n"
+"        <p><b>Plain Text Body</b> is the content of the email, sent when the "
+"HTML cannot be loaded. No HTML tags can be used here.</p>\n"
+"        <p><b>HTML Body</b> is the content of the email using HTML. This is "
+"typically what will be received in inboxes.</p>\n"
+"        <p>Each email is automatically signed with the name of the queue and "
+"the sender email address.</p>\n"
+"    </div>\n"
+"</div>\n"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:44
+msgid "Subject Line Suffix"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:46
+msgid "Plain Text Body"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/email_template_list.html:47
+msgid "HTML Body"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/date.html:4
+msgid "Created Date"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/kbitems.html:6
+msgid "Knowledgebase Item"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/keywords.html:4
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:146
+msgid "Keywords"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/keywords.html:12
+msgid ""
+"Keywords are case-insensitive, and will be looked for pretty much everywhere "
+"possible. Prepend with 'queue:' or 'priority:' to search by queue or "
+"priority. You can also use the keyword OR to combine multiple searches."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/last_reply.html:4
+msgid "Last Reply Date"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/owner.html:6
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:33
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:202
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:176
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:73
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:137
+#: src/django-helpdesk/helpdesk/views/staff.py:1256
+#: src/django-helpdesk/helpdesk/views/staff.py:1673
+msgid "Owner"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/owner.html:20
+msgid "(ME)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/paired_count.html:4
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:36
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:178
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:75
+msgid "Paired Count"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:6
+msgid "Sort by"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:18
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:180
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:77
+msgid "Last Reply"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/sorting.html:39
+msgid "Submitter Email"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/tags.html:6
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:29
+msgid "Tag"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/filters/tags.html:13
+msgid "Untagged"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/followup_edit.html:2
+msgid "Edit followup"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/followup_edit.html:20
+#: src/django-helpdesk/helpdesk/templates/helpdesk/followup_edit.html:30
+msgid "Edit FollowUp"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:3
+msgid " Maintain Forms "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:53
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:33
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:103
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_delete.html:21
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_delete.html:22
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:32
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:41
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:74
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:554
+msgid "Delete"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/form_list.html:102
+msgid "You do not have any forms."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/alert_form_errors.html:4
+msgid "There are errors in the form"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/stats.html:15
+msgid "View Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/stats.html:15
+msgid "No tickets in this range"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/tickets.html:7
+msgid "Your Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/tickets.html:18
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:17
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:177
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:74
+msgid "Submitter"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/tickets.html:19
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:18
+msgid "Primary Contact"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/tickets.html:20
+msgid "Last Update"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/tickets.html:35
+msgid "You do not have any pending tickets."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:19
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:91
+msgid "Actions"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:32
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:102
+msgid "Take"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:37
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:107
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:61
+msgid "There are no unassigned tickets."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:80
+msgid "KBItem:"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:80
+msgid "Team:"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/include/unassigned.html:80
+msgid "(pick up a ticket if you start to work on it)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article.html:4
+#, python-format
+msgid "%(kbitem)s - %(kbcat)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category.html:8
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category_edit.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:2
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:6
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:19
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_manage.html:4
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_manage.html:9
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:16
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:17
+msgid "Knowledgebase"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article.html:10
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:17
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category.html:4
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category.html:10
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category_base.html:4
+#, python-format
+msgid "%(kbcat)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article.html:12
+#, python-format
+msgid "%(kbitem)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_base.html:6
+#, python-format
+msgid "%(itemq)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_base.html:45
+msgid "open tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:5
+#, python-format
+msgid "%(action)s Article"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:13
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category_edit.html:13
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_manage.html:12
+msgid "Manage"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:20
+#, python-format
+msgid " %(action)s %(itemq)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:26
+#, python-format
+msgid " %(action)s Article "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_article_edit.html:39
+msgid ""
+"Files can only be attached to an article after it has been created. After "
+"creating this article, edit it to upload attachments."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category_edit.html:5
+#, python-format
+msgid "%(action)s Category"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category_edit.html:17
+#, python-format
+msgid " %(action)s %(kbcat)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category_edit.html:24
+#, python-format
+msgid " %(action)s Category "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_category_edit.html:31
+msgid "Error in the following field(s): "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:36
+msgid ""
+"We have listed a number of Knowledgebase articles for your perusal in the "
+"following categories. Please check to see if any of these articles address "
+"your problem prior to opening a support ticket."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:46
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_homepage.html:27
+msgid "View articles"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:57
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_change_language.html:2
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_homepage.html:60
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_form.html:4
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:4
+msgid "View a Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_index.html:67
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_homepage.html:70
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_form.html:15
+msgid "Your E-mail Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/kb_manage.html:18
+msgid "Manage Knowledgebase"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-header.html:14
+msgid "Building Performance Helpdesk"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-header.html:22
+msgid "Search..."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-header.html:22
+msgid "Enter a keyword, or a ticket number to jump straight to that ticket."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-header.html:26
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:113
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:576
+msgid "Go"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:19
+msgid "All Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:35
+msgid ""
+"No saved searches currently available. You can create one in the All Tickets "
+"page."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:42
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:114
+msgid "New Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:50
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:124
+msgid "No forms are available."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:57
+msgid "Reports"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:64
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:132
+msgid "Knowledge<wbr>base"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:72
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:140
+msgid "Accessibility Notice"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:85
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:4
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:16
+msgid "RSS Feeds"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:87
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/change_password.html:2
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/change_password_done.html:2
+msgid "Change password"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:94
+msgid "Logout"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:108
+msgid "Homepage"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/navigation-sidebar.html:148
+msgid "Inventory"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/pair_property_milestone.html:6
+msgid "Pair Ticket to Property Milestone"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/pair_property_milestone.html:29
+msgid "Select a Cycle to select a Property"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/pair_property_milestone.html:39
+msgid "Select a Property to pair to this Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/pair_property_milestone.html:52
+msgid "Select a Pathway assigned to this Property"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/pair_property_milestone.html:64
+msgid "Select a Milestone attached to this Property"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/pair_property_milestone.html:78
+msgid "Pair!"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_add.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_add.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_add.html:16
+msgid "Preset Reply"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_add.html:10
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_delete.html:10
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:3
+msgid "Preset Replies"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_add.html:18
+msgid "Edit the preset content below."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_delete.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_delete.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_delete.html:16
+msgid "Delete Preset Reply"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_delete.html:18
+msgid "Are you sure you wish to delete this preset reply?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:14
+msgid ""
+"\n"
+"<h2>Preset Replies</h2>\n"
+"<p>Here you can create, edit, and delete preset replies that you can use to "
+"respond to tickets.</p>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/preset_reply_list.html:23
+msgid "Add a reply"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:12
+msgid "Building Performance Colorado Pathway Selection Calculator"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:14
+msgid ""
+"This tool will show you the potential BPS targets for your building based on "
+"the building\\"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:15
+msgid ""
+"Use this tool to compare the different Building Performance Colorado "
+"pathways."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:16
+msgid ""
+"The numbers in each row allow you to compare targets defined by each pathway "
+"in order to make an informed pathway selection."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:19
+msgid ""
+"Please note this tool is not the official pathway selection form, only a "
+"resource to help inform building owners and the interested public. To "
+"officially select your BPS compliance pathway, please fill out "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:20
+msgid "this form."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:26
+msgid "1. Select your property type:"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:36
+msgid ""
+"Property type is used to determine EUI and GHGI targets for non-Standard "
+"Reduction Pathways"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:42
+msgid "2. Enter the estimated baseline EUI (kBtu/sqft)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:50
+msgid "Estimated annual kBtu divided by gross square footage."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:55
+msgid "3. Enter the estimated baseline GHGI (kgCO2e/sqft)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:63
+msgid "Estimated annual kgCO2e divided by gross square footage."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:65
+msgid "Energy Efficiency Pathway Comparison"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:69
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:112
+msgid "Year"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:71
+msgid "EUI Pathway (kBtu/sqft)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:74
+#, python-format
+msgid "EUI Standard %% Reduction (kBtu/sqft)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:77
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:120
+#, python-format
+msgid "Reduction Check (%%)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:80
+msgid "Difference* (kBtu/sqft)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:108
+msgid "Greenhouse Gas Reduction Pathway Comparison"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:114
+msgid "GHGI Pathway (kgCO2e/sqft)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:117
+#, python-format
+msgid "GHGI Standard %% Reduction (kgCO2e/sqft)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_bps_pathway_calculator.html:123
+msgid "Difference* (kgCO2e/sqft)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_change_language.html:5
+msgid "Change the display language"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_create_ticket.html:19
+#, python-format
+msgid ""
+"\n"
+"                Submit a %(title)s\n"
+"                "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_create_ticket_base.html:14
+#, python-format
+msgid ""
+"\n"
+"            %(intro)s\n"
+"            "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_create_ticket_base.html:35
+#, python-format
+msgid ""
+"\n"
+"                                %(help_text)s\n"
+"                                "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_create_ticket_base.html:48
+msgid ""
+"Public ticket submission is disabled. Please contact the administrator for "
+"assistance."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_error.html:5
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:5
+msgid "View Ticket Details"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_homepage.html:4
+msgid "Welcome to Helpdesk"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_homepage.html:18
+msgid "Knowledgebase Articles"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_homepage.html:42
+#, python-format
+msgid ""
+"\n"
+"                            Submit a %(title)s\n"
+"                            "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_homepage.html:53
+msgid "Please use button at upper right to login first."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_spam.html:4
+msgid "Unable To Open Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_spam.html:5
+msgid "Sorry, but there has been an error trying to submit your ticket."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_spam.html:6
+msgid ""
+"Our system has marked your submission as <strong>spam</strong>, so we are "
+"unable to save it. If this is not spam, please press back and re-type your "
+"message. Be careful to avoid sounding 'spammy', and if you have heaps of "
+"links please try removing them if possible."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_spam.html:7
+msgid ""
+"We are sorry for any inconvenience, however this check is required to avoid "
+"our helpdesk resources being overloaded by spammers."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_form.html:8
+msgid "Error:"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:30
+#, python-format
+msgid ""
+"\n"
+"                %(org)s's Queue: %(queue)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:34
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:47
+msgid "View Milestone(s)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:46
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:137
+msgid "Submitted On"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:52
+msgid "Due On"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:81
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:23
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_add.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_add.html:10
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_add.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_add.html:16
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_delete.html:10
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:184
+msgid "Tags"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:86
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:242
+msgid "Description"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:93
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:248
+msgid "Accept and Close"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:103
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:40
+msgid "Follow-Ups"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:115
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:117
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:120
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:58
+#, python-format
+msgid "Changed %(field)s from %(old_value)s to %(new_value)s."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:140
+msgid "Use a Pre-set Reply"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:140
+msgid "(Optional)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:142
+msgid ""
+"Selecting a pre-set reply will over-write your comment below. You can then "
+"modify the pre-set reply to your liking before saving this update."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:155
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:111
+msgid ""
+"This ticket cannot be resolved or closed until the tickets it depends on are "
+"resolved."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:165
+msgid "Accept resolution and close (optional)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:176
+msgid "Close ticket (optional)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:185
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:214
+msgid "Attach File(s) &raquo;"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:190
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:218
+msgid "Attach a File"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:195
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:231
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:222
+msgid "No files selected."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:196
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:223
+msgid "Add Another File"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/public_view_ticket.html:202
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:230
+msgid "Update This Ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:3
+msgid " Maintain Queues "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:43
+msgid "Default Owner"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:46
+msgid "Allows public submission?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:47
+msgid "Staff notified on new tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:48
+msgid "Staff notified on all ticket updates"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:53
+msgid "Matches on these subject lines"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:54
+msgid "Matches on these email addresses"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/queue_list.html:86
+msgid "No queues found."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/change_password.html:6
+msgid "Change Password"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/change_password.html:12
+msgid "Please correct the error below."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/change_password.html:12
+msgid "Please correct the errors below."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/change_password.html:17
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/change_password.html:45
+msgid "Change my password"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/change_password_done.html:6
+msgid "Success!"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/change_password_done.html:8
+msgid "Your password was changed."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/logged_out.html:2
+msgid "Logged Out"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/logged_out.html:4
+msgid ""
+"\n"
+"\n"
+"    <div class=\"col-md-4 col-md-offset-4\">\n"
+"        <div class=\"alert alert-success\">\n"
+"            <h2>Successfully Logged Out</h2>\n"
+"            <p>Thanks for being here. Hopefully you've helped resolve a few "
+"tickets and made the world a better place.</p>\n"
+"        </div>\n"
+"    </div>\n"
+"\n"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/login.html:2
+msgid "Helpdesk Login"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/login.html:12
+msgid "Please Sign In"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/login.html:16
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/login.html:34
+msgid "Remember Password"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/registration/login.html:38
+msgid "Login"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:7
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:13
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_output.html:4
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_output.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_output.html:18
+msgid "Reports &amp; Statistics"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:16
+msgid "You haven't created any tickets yet, so you cannot run any reports."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:22
+msgid "Current Ticket Stats"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:29
+msgid "Average number of days until ticket is closed (all tickets): "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:33
+msgid ""
+"Average number of days until ticket is closed (tickets opened in last 60 "
+"days): "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:34
+msgid "Click"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:34
+msgid "for detailed average by month."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:48
+msgid "Time spent"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:75
+msgid "Generate Report"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:79
+msgid "Reports By User"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:81
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:89
+msgid "by Priority"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:82
+msgid "by Queue"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:83
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:90
+msgid "by Status"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:84
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:91
+msgid "by Month"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:87
+msgid "Reports By Queue"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:92
+msgid "Days until ticket closed by Month"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:104
+msgid "Export Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_index.html:110
+msgid "Export All"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_output.html:23
+msgid "Saved Queries"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_output.html:27
+msgid ""
+"You can run this query on filtered data by using one of your saved queries."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_output.html:29
+msgid "Select Query:"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_output.html:34
+msgid "Filter Report"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/report_output.html:37
+msgid ""
+"Want to filter this report to just show a subset of data? Go to the Ticket "
+"List, filter your query, and save your query."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:18
+msgid ""
+"The following RSS feeds are available for you to monitor using your "
+"preferred RSS software. With the exception of the 'Latest Activity' feed, "
+"all feeds provide information only on Open and Reopened cases. This ensures "
+"your RSS reader isn't full of information about closed or historical tasks."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:22
+msgid ""
+"A summary of your open tickets - useful for getting alerted to new tickets "
+"opened for you"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:24
+msgid "Latest Activity"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:25
+msgid ""
+"A summary of all helpdesk activity - including comments, emails, "
+"attachments, and more"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:28
+msgid ""
+"All unassigned tickets - useful for being alerted to new tickets opened by "
+"the public via the web or via e-mail"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:31
+msgid ""
+"These RSS feeds allow you to view a summary of either your own tickets, or "
+"all tickets, for each of the queues in your helpdesk. For example, if you "
+"manage the staff who utilise a particular queue, this may be used to view "
+"new tickets coming into that queue."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:37
+msgid "Per-Queue Feeds"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/rss_list.html:46
+msgid "All Open Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/success_iframe.html:3
+msgid ""
+"Ticket submitted successfully! We will reply via email as soon as we get the "
+"chance."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:3
+msgid "Change System Settings"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:14
+msgid "The following items can be maintained by you or other staff users:"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:20
+msgid "Ignored Email Address List"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:21
+msgid "Preset Ticket Replies"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/system_settings.html:28
+msgid "Maintain Users"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_delete.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_delete.html:12
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_delete.html:16
+msgid "Delete Tag"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:14
+msgid ""
+"\n"
+"<h2>Tags</h2>\n"
+"\n"
+"<p>Here you can create, edit, and delete Helpdesk tags. They can be used to "
+"sort and categorize tickets. Helpdesk will not automatically apply or remove "
+"tags from tickets.</p>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:24
+msgid "Create a Tag"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/tag_list.html:30
+msgid "View Tagged Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:32
+msgid "This ticket has been merged into ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:48
+msgid "Private"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:97
+msgid "Respond to this ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:114
+msgid "Use a Preset Reply?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:116
+msgid ""
+"Selecting a preset reply will overwrite your comment below. You can then "
+"modify the preset reply to your liking before saving this update."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:120
+msgid "Comment / Resolution"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:123
+msgid ""
+"You can insert ticket and queue details in your message. For more "
+"information, see the <a href='../../help/context/'>context help page</a>."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:125
+msgid "Change Ticket Status"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:128
+msgid "Keep ticket open"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:129
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:138
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:175
+msgid "Mark replied"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:130
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:139
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:167
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:176
+msgid "Mark as duplicate"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:131
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:140
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:168
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:177
+msgid "Resolve"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:132
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:141
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:148
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:169
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:178
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:558
+msgid "Close"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:137
+msgid "Keep ticket reopened"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:146
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:153
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:159
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:165
+msgid "No change in status"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:147
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:154
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:160
+msgid "Reopen"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:166
+msgid "Set ticket to open (needs attention from staff)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:174
+msgid "Keep ticket marked 'new'"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:182
+msgid "Make this update public?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:183
+msgid ""
+"If public, an email will be sent to the submitter, primary contact, copied "
+"nonusers, and any other email addresses listed on the form.<br>If private, "
+"an email will only be sent to the assigned staff owner and internal users. "
+"Use this to leave internal comments, questions, and flags. Responses will "
+"<i>not</i> be sent to the original sender. "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:187
+msgid "Change Further Details &raquo;"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:203
+msgid "Unassign"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket.html:208
+#: src/django-helpdesk/helpdesk/views/staff.py:1277
+msgid "Due on"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_attachment_del.html:3
+msgid "Delete Ticket Attachment"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_attachment_del.html:5
+#, python-format
+msgid ""
+"\n"
+"<h2>Delete Ticket Attachment</h2>\n"
+"\n"
+"<p>Are you sure you wish to delete the attachment <i>%(filename)s</i> from "
+"this ticket? The attachment data will be permanently deleted from the "
+"database, but the attachment itself will still exist on the server.</p>\n"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_attachment_del.html:11
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_del.html:21
+msgid "Don't Delete"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_attachment_del.html:14
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_del.html:24
+msgid "Yes, I Understand - Delete"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_add.html:5
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_add.html:21
+msgid "Add Ticket CC"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_add.html:15
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_del.html:13
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:14
+msgid "CC Settings"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_add.html:17
+msgid "Add CC"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_add.html:23
+msgid ""
+"To automatically send an email to a user or e-mail address when this ticket "
+"is updated, select a user or enter an e-mail address below."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_add.html:42
+msgid "Add Recipient"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_del.html:3
+msgid "Delete Ticket CC"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_del.html:15
+msgid "Delete CC"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_del.html:18
+#, python-format
+msgid ""
+"\n"
+"<h2>Delete Ticket CC</h2>\n"
+"\n"
+"<p>Are you sure you wish to delete this email address "
+"(<em>%(email_address)s</em>) from the CC list for this ticket? They will "
+"stop receiving updates.</p>\n"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_del.html:27
+msgid "Delete Email Address"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:5
+msgid "Ticket CC Settings"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:17
+#, python-format
+msgid ""
+"\n"
+"<h2>Ticket CC Settings</h2>\n"
+"\n"
+"<p>The following people will receive an e-mail whenever <em><a "
+"href='../'>%(ticket_title)s</a></em> is updated. Some people can also view "
+"or edit the ticket via the public ticket views.</p>\n"
+"\n"
+"<p>You can add a new recipient to the list or delete any of the items below "
+"as required.</p>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:28
+msgid "Ticket CC List"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:37
+msgid "E-Mail Address or Helpdesk User"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:38
+msgid "View"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:39
+msgid "Update"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:88
+msgid "Add CC Recipient"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_cc_list.html:100
+#, python-format
+msgid "Return to <em>%(ticket_title)s</em>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_copy_to_beam.html:6
+msgid "Copy ticket data to BEAM inventory"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_copy_to_beam.html:32
+msgid "First, select a cycle to update."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_copy_to_beam.html:41
+msgid "Select a property or taxlot to edit."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_copy_to_beam.html:59
+msgid "Choose the fields you would like to copy over into BEAM."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_copy_to_beam.html:74
+msgid "Copy selected values to BEAM"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_add.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_add.html:12
+msgid "Add Ticket Dependency"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_add.html:15
+msgid ""
+"\n"
+"<h2>Add Ticket Dependency</h2>\n"
+"\n"
+"<p>Adding a dependency will stop you resolving this ticket until the "
+"dependent ticket has been resolved or closed.</p>"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_add.html:32
+msgid "Save Ticket Dependency"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_del.html:3
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_del.html:12
+msgid "Delete Ticket Dependency"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_dependency_del.html:15
+msgid ""
+"\n"
+"<h2>Delete Ticket Dependency</h2>\n"
+"\n"
+"<p>Are you sure you wish to remove the dependency on this ticket?</p>\n"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:32
+msgid "Disable Email Notifications"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:32
+msgid "Enable Email Notifications"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:36
+msgid "Auto-pair to BEAM inventory"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:43
+msgid "Copy data to BEAM"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:58
+msgid "Pair to Milestone"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:65
+msgid "Edit Property Labels"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:71
+msgid "Edit TaxLot Labels"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:76
+msgid "Unhold"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:78
+msgid "Hold"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:134
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:181
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:78
+msgid "Due Date"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:141
+msgid "Assigned To"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:143
+msgid "Assign this ticket to yourself"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:152
+msgid "Edit "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:152
+msgid " user profile"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:156
+msgid "Display tickets filtered for "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:156
+msgid " as a keyword"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:159
+msgid "Add email address for the ticket system to ignore."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:169
+msgid "Copies To"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:170
+msgid ""
+"Click here to add / remove people who should receive an e-mail whenever this "
+"ticket is updated."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:170
+msgid ""
+"Click here to subscribe yourself to this ticket, if you want to receive an e-"
+"mail whenever this ticket is updated."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:174
+msgid "Dependencies"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:176
+msgid ""
+"Click on 'Add Dependency', if you want to make this ticket dependent on "
+"another ticket. A ticket may not be closed until all tickets it depends on "
+"are closed."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:178
+msgid ""
+"This ticket cannot be resolved until the following ticket(s) are resolved"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:182
+msgid "This ticket has no dependencies."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:185
+msgid "Total time spent"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:194
+msgid "Knowlegebase item"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:199
+msgid "Properties Paired"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_desc_table.html:210
+msgid "Taxlots Paired"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:27
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:26
+msgid "Saved Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:183
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:80
+msgid "KB item"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:243
+msgid "No tickets found."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:321
+msgid "Saved Searches"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:360
+msgid "Search Filters"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:431
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:205
+msgid "Apply Filters"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list.html:432
+msgid "Clear Filters"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:39
+msgid "Query Results"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:45
+msgid "Table"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:52
+msgid "Timeline"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:107
+msgid "Query Selection"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:118
+msgid "Filters"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:128
+msgid "Add filter"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:134
+msgid "Sorting"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:149
+msgid "Date Range"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:152
+msgid "Knowledge base items"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:155
+msgid "Paired Count Range"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:158
+msgid "Last Reply Range"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:210
+#, python-format
+msgid ""
+"You are currently viewing saved query <strong>\"%(query_name)s\"</strong>."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:216
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:307
+msgid "Un-share Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:220
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:309
+msgid "Re-share Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:225
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:312
+msgid "Reject Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:232
+#, python-format
+msgid ""
+"<a href='../reports/?saved-query=%(query_id)s'>Run a report</a> on this "
+"query to see stats and charts for the data listed below."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:246
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:269
+msgid "Save Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:259
+msgid ""
+"This name appears in the drop-down list of saved queries. If you share your "
+"query, other users will see this name, so choose something clear and "
+"descriptive!"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:261
+msgid "Shared?"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:263
+msgid "Yes, share this query with other users."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:265
+msgid ""
+"If you share this query, it will be visible by <em>all</em> other logged-in "
+"users."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:283
+msgid "View Your Saved Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:292
+msgid "Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:302
+msgid "Run Query"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:362
+msgid "No Tickets Match Your Selection"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:545
+msgid "Select:"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:547
+msgid "None"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:551
+msgid "With Selected Tickets:"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:553
+msgid "Take (Assign to me)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:555
+msgid "Merge"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:556
+msgid "Export"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:557
+msgid "Pair to BEAM inventory"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:559
+msgid "Close (Don't Send E-Mail)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:560
+msgid "Close (Send E-Mail)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:562
+msgid "Assign To"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:563
+msgid "Nobody (Unassign)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:568
+msgid "Set KB Item"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_list_old.html:569
+msgid "No KB Item"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:5
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:16
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:24
+msgid "Merge Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:34
+msgid "OK"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:43
+msgid ""
+"\n"
+"                        Choose the ticket which will be conserved and then, "
+"for each information, you can decide to use\n"
+"                        a data from another ticket to merge. If you don't "
+"select a data on a row, <b>the information\n"
+"                        from the main ticket will stay unchanged</b>.\n"
+"                    "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:50
+msgid ""
+"\n"
+"                        The  <b>follow-ups</b> and <b>attachments</b> from "
+"the merged tickets will be moved to\n"
+"                        the main ticket.<br>\n"
+"                        <b>Involved users</b> (the ticket submitter and "
+"emails in CC) will also be added in the\n"
+"                        main ticket CC list.<br>\n"
+"                        However, ticket dependencies from the merged ticket "
+"won't be applied to the main ticket.\n"
+"                    "
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:70
+msgid "Fields"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:77
+msgid "Open ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/ticket_merge.html:97
+msgid "Validate"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/user_settings.html:3
+msgid "Change User Settings"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/user_settings.html:7
+msgid "Settings"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templates/helpdesk/user_settings.html:17
+msgid ""
+"Use the following options to change the way your helpdesk system works for "
+"you. These settings do not impact any other user."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templatetags/natural_time_date.py:28
+msgid "tomorrow"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/templatetags/natural_time_date.py:30
+msgid "yesterday"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:37
+#, python-format
+msgid "Helpdesk: Open Tickets in queue %(queue)s for %(username)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:42
+#, python-format
+msgid "Helpdesk: Open Tickets for %(username)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:48
+#, python-format
+msgid "Open and Reopened Tickets in queue %(queue)s for %(username)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:53
+#, python-format
+msgid "Open and Reopened Tickets for %(username)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:100
+msgid "Helpdesk: Unassigned Tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:101
+msgid "Unassigned Open and Reopened tickets"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:125
+msgid "Helpdesk: Recent Followups"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:126
+msgid ""
+"Recent FollowUps, such as e-mail replies, comments, attachments and "
+"resolutions"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:141
+#, python-format
+msgid "Helpdesk: Open Tickets in queue %(queue)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/feeds.py:146
+#, python-format
+msgid "Open and Reopened Tickets in queue %(queue)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/public.py:204
+msgid "Greenhouse Gas Reduction"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/public.py:205
+msgid "Standard Percent Greenhouse Gas Reduction"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/public.py:209
+msgid "Energy Efficiency"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/public.py:210
+msgid "Standard Percent Energy Efficiency"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/public.py:235
+msgid "Missing ticket ID or e-mail address. Please try again."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/public.py:244
+#: src/django-helpdesk/helpdesk/views/public.py:271
+msgid "Invalid ticket ID or e-mail address. Please try again."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/public.py:301
+msgid "Submitter accepted resolution and closed ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:195
+#: src/django-helpdesk/helpdesk/views/staff.py:339
+msgid "q_page"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:909
+msgid "Accepted resolution and closed ticket"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1052
+#, python-format
+msgid ""
+"When you add somebody on Cc, you must provide either a User or a valid "
+"email. Email: %s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1166
+#: src/django-helpdesk/helpdesk/views/staff.py:1178
+#: src/django-helpdesk/helpdesk/views/staff.py:1187
+#, python-format
+msgid "Assigned to %(name)s"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1220
+msgid "Updated"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1511
+#: src/django-helpdesk/helpdesk/views/staff.py:1549
+#, python-format
+msgid "Assigned to %(username)s in bulk update"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1560
+msgid "Unassigned in bulk update"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1569
+msgid "KBItem set in bulk update"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1578
+#: src/django-helpdesk/helpdesk/views/staff.py:1596
+msgid "Closed in bulk update"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1669
+msgid "Created date"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1696
+msgid "Not defined"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1732
+msgid "Please choose a ticket in which the others will be merged into."
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:1800
+msgid "id"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2211
+msgid "Ticket taken off hold"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2214
+msgid "Ticket placed on hold"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2338
+msgid "User by Priority"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2344
+msgid "User by Queue"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2351
+msgid "User by Status"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2357
+msgid "User by Month"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2363
+msgid "Queue by Priority"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2369
+msgid "Queue by Status"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2375
+msgid "Queue by Month"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2381
+msgid "Average days until ticket was closed (by created month)"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2929
+msgid "Cannot add the same user twice"
+msgstr ""
+
+#: src/django-helpdesk/helpdesk/views/staff.py:2931
+#: src/django-helpdesk/helpdesk/views/staff.py:2933
+msgid "Cannot add the same email address twice"
+msgstr ""
